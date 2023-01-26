@@ -1,21 +1,33 @@
 {
-  "name": "osama-dark",
-  "displayName": "osama dark",
-  "description": "elegant vs code dark theme",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "Osama Dark",
-        "uiTheme": "vs-dark",
-        "path": "./themes/Osama Dark-color-theme.json"
-      }
-    ]
-  }
+   "name": "osama-dark",
+   "displayName": "osama dark",
+   "description": "elegant vs code dark theme",
+   "version": "0.0.1",
+   "publisher": "osama",
+   "repository": {
+      "type": "git",
+      "url": "https://github.com/0ussamaBernou/osama-dark"
+   },
+   "keywords": [
+      "theme",
+      "dark theme",
+      "osama dark",
+      "osama",
+      "andres vidoza"
+   ],
+   "engines": {
+      "vscode": "^1.74.0"
+   },
+   "categories": [
+      "Themes"
+   ],
+   "contributes": {
+      "themes": [
+         {
+            "label": "Osama Dark",
+            "uiTheme": "vs-dark",
+            "path": "./themes/Osama Dark-color-theme.json"
+         }
+      ]
+   }
 }
