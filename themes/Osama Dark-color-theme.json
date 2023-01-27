@@ -67,8 +67,8 @@
       "statusBar.background": "#131D25",
       "statusBar.focusBorder": "#ff8d03",
       "statusBarItem.errorBackground": "#ff2323",
-      "statusBar.debuggingBackground": "#a1e8dc",
-      "statusBar.debuggingForeground": "#2e2e2e",
+      "statusBar.debuggingBackground": "#06969a", //"#a1e8dc",
+      "statusBar.debuggingForeground": "#EEFFFF",
       "statusBar.noFolderBackground": "#1c2730",
       "statusBar.noFolderForeground": "#bbc8c8",
 
@@ -206,8 +206,6 @@
       {
          "name": "Operator, Misc",
          "scope": [
-            "keyword.control",
-            "constant.other.color",
             "punctuation",
             "meta.tag",
             "punctuation.definition.tag",
@@ -215,12 +213,10 @@
             "punctuation.definition.tag.html",
             "punctuation.definition.tag.begin.html",
             "punctuation.definition.tag.end.html",
-            "punctuation.section.embedded",
-            "keyword.other.template",
-            "keyword.other.substitution"
+            "punctuation.section.embedded"
          ],
          "settings": {
-            "foreground": "#C3E88D"
+            "foreground": "#C2E88D"
          }
       },
       {
@@ -244,7 +240,7 @@
             "keyword.other.special-method"
          ],
          "settings": {
-            "foreground": "#ffd173"
+            "foreground": "#ffb55b"
          }
       },
       {
@@ -869,7 +865,7 @@
          "name": "Function name",
          "scope": ["entity.name.function"],
          "settings": {
-            "foreground": "#ffd173"
+            "foreground": "#C2E88D"
          }
       },
       {
@@ -1178,10 +1174,68 @@
          "settings": {
             "foreground": "#b8cfe680"
          }
+      },
+      {
+         "name": "Keyword",
+         "scope": [
+            "keyword.other.template",
+            "keyword.other.substitution",
+            "keyword.control",
+            "constant.other.color"
+         ],
+         "settings": {
+            "foreground": "#ff8d03"
+         }
+      },
+      {
+         "name": "Variable",
+         "scope": "variable",
+         "settings": {
+            "foreground": "#E3F3F3"
+         }
+      },
+      {
+         "name": "Variable Function",
+         "scope": "variable.function",
+         "settings": {
+            "foreground": "#82AAFF"
+         }
+      },
+      {
+         "name": "Ruby Function Call",
+         "scope": ["variable.other.ruby", "source.ruby"],
+         "settings": {
+            "foreground": "#E3F3F3"
+         }
+      },
+      {
+         "name": "Ruby Function Call",
+         "scope": [
+            // "variable.other.ruby",
+            "meta.function-call.ruby"
+            // "source.ruby"
+         ],
+         "settings": {
+            "foreground": "#82AAFF"
+         }
+      },
+      // Python //
+      {
+         "scope": ["source.python"],
+         "settings": {
+            "foreground": "#E3F3F3"
+         }
+      },
+      {
+         "name": "Backtics(``) in Template Strings",
+         "scope": "string.template punctuation.definition.string",
+         "settings": {
+            "foreground": "#bfc7d5"
+         }
       }
    ],
    "semanticHighlighting": true,
    "semanticTokenColors": {
-      "parameter.label": "#cccac2"
+      "parameter.label": "#E3F3F3"
    }
 }
