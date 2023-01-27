@@ -2,4 +2,6 @@
 
 A simple theme with bright colors
 
-![sample image]("./osama-dark_sample.png")
+![sample image][sample]
+
+[sample]: "assets/osama-dark_sample.png"

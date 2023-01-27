@@ -73,7 +73,7 @@
       "statusBar.noFolderForeground": "#bbc8c8",
 
       // menu
-      "menu.border": "#3e5262",
+      // "menu.border": "#3e5262",
       "menu.background": "#131D25",
       "menu.foreground": "#cfdede",
       // "menu.selectionBorder": "#ff8d03",
@@ -738,7 +738,7 @@
          "name": "Variable",
          "scope": ["variable", "variable.parameter.function-call"],
          "settings": {
-            "foreground": "#cccac2"
+            "foreground": "#e3f3f3"
          }
       },
       {
@@ -1141,7 +1141,6 @@
          "name": "Markup Table",
          "scope": ["markup.table"],
          "settings": {
-            "background": "#cccac20f",
             "foreground": "#5ccfe6"
          }
       },

@@ -6,7 +6,18 @@ All notable changes to the "osama-dark" extension will be documented in this fil
 
 -  Initial release
 
+## [0.2.1]
+
+---
+
+### Fixed
+
+-  menu borders
+-  variables contrast
+
 ## [0.2.0]
+
+---
 
 ### Added
 
@@ -15,6 +26,8 @@ All notable changes to the "osama-dark" extension will be documented in this fil
 -  added jsx tokens
 
 ## [0.1.0]
+
+---
 
 ### Added
 

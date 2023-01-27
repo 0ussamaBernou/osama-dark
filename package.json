@@ -16,7 +16,7 @@
       "andres vidoza",
       "Ayu"
    ],
-   "icon": "osama-dark_128px.png",
+   "icon": "assets/osama-dark_128px.png",
    "engines": {
       "vscode": "^1.74.0"
    },
