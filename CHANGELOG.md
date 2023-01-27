@@ -6,7 +6,7 @@ All notable changes to the "osama-dark" extension will be documented in this fil
 
 -  Initial release
 
-## [0.2.4]
+## [0.2.5]
 
 ---
 
