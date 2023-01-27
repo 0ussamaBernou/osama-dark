@@ -1,7 +1,7 @@
 {
    "name": "osama-dark",
    "displayName": "osama dark",
-   "description": "elegant vs code dark theme",
+   "description": "A simle dark theme with bright colors, inspired from Ayu",
    "version": "0.1.0",
    "publisher": "osama",
    "repository": {
@@ -13,7 +13,8 @@
       "dark theme",
       "osama dark",
       "osama",
-      "andres vidoza"
+      "andres vidoza",
+      "Ayu"
    ],
    "icon": "osama-dark_128px.png",
    "engines": {
