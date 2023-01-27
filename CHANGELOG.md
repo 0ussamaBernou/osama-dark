@@ -6,6 +6,15 @@ All notable changes to the "osama-dark" extension will be documented in this fil
 
 -  Initial release
 
+## [0.2.3]
+
+---
+
+### Fixed
+
+-  extension buttons colors
+-  notifications colors
+
 ## [0.2.2]
 
 ---
