@@ -98,14 +98,18 @@
 
       // titlebar
       "titleBar.activeBackground": "#131D25",
+
       //button
       "button.background": "#1c2730",
       "button.foreground": "#ff8d03",
       "button.border": "#ff8d03",
       "button.secondaryBackground": "#6a7a83",
-      "button.hoverBackground": "#2e3f4e",
-      "button.secondaryHoverBackground": "#2e3f4e",
+      "button.hoverBackground": "#eeffff1d",
       "button.secondaryForeground": "#131D25",
+      "button.separator": "#ff8d03",
+      "extensionButton.background": "#131c22",
+      "extensionButton.foreground": "#ff8d03",
+      "extensionButton.hoverBackground": "#2d3f4d7a",
 
       // input
       "input.background": "#131D25",
@@ -150,7 +154,13 @@
       // progress bar
       "progressBar.background": "#ff8d03",
 
-      "debugToolBar.background": "#131D25"
+      "debugToolBar.background": "#131D25",
+
+      // notifications
+      "notifications.background": "#1c2730",
+      "notifications.foreground": "#EEFFFF",
+      "notifications.border": "#eeffff27",
+      "notificationCenterHeader.background": "#131D25"
    },
    "tokenColors": [
       {
@@ -1007,7 +1017,7 @@
          "name": "CSS Properties",
          "scope": ["support.type.property-name"],
          "settings": {
-            "fontStyle": "normal",
+            // "fontStyle": "normal",
             "foreground": "#5ccfe6"
          }
       },
