@@ -12,6 +12,14 @@ All notable changes to the "osama-dark" extension will be documented in this fil
 
 ### Fixed
 
+-  markdown colors
+
+## [0.2.6]
+
+---
+
+### Fixed
+
 -  debugging statusbar colors
 -  syntax highlight colors
 

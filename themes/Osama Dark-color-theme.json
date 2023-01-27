@@ -572,7 +572,7 @@
             "markup.heading.markdown punctuation.definition.heading.markdown"
          ],
          "settings": {
-            "foreground": "#C3E88D"
+            "foreground": "#ff8d03"
          }
       },
       {
@@ -1053,7 +1053,7 @@
          "scope": ["markup.heading", "markup.heading entity.name"],
          "settings": {
             "fontStyle": "bold",
-            "foreground": "#d5ff80"
+            "foreground": "#ff8d03"
          }
       },
       {
